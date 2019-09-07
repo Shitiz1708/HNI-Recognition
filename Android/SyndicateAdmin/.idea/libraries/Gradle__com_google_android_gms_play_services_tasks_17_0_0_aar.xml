@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-tasks:17.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3706ea457888143b16c2ca329df2cd1a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3706ea457888143b16c2ca329df2cd1a/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

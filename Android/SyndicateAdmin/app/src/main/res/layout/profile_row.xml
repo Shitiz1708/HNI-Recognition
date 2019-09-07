@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_weight="3"
+    android:background="@drawable/profilenavsynd"
+    android:layout_height="200dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/border"
+        android:layout_height="match_parent">
+<ImageView
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:id="@+id/profile_image"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:layout_margin="5dp"
+
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:textSize="20sp"
+            android:textColor="#800080"
+            android:drawableLeft="@drawable/ic_person1_outline_black_24dp"
+            android:layout_weight="1"
+            android:text="Name"
+            android:id="@+id/name"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:textColor="#800080"
+           android:drawableLeft="@drawable/ic_date_range_black_24dp"
+           android:layout_weight="1"
+           android:text="Date"
+           android:id="@+id/dob"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#800080"
+            android:text="phone"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:id="@+id/phone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#800080"
+            android:text="contact"
+            android:drawableLeft="@drawable/ic_account_box_black_24dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:id="@+id/acc_num"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#800080"
+            android:text="Balance"
+            android:drawableLeft="@drawable/ic_account_balance_black_24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:id="@+id/balance"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
