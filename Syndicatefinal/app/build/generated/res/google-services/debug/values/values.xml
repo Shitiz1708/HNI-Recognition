@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1018207747989-k5pf3jsa2sb1u10ftq8rgr5rf1agpi87.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://synd-innovate-e51cc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1018207747989</string>
+    <string name="google_api_key" translatable="false">AIzaSyA7ZvePrjf-MbSV7KoODSKMDh91Ilcei-o</string>
+    <string name="google_app_id" translatable="false">1:1018207747989:android:354be24703cb45c9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA7ZvePrjf-MbSV7KoODSKMDh91Ilcei-o</string>
+    <string name="google_storage_bucket" translatable="false">synd-innovate-e51cc.appspot.com</string>
+    <string name="project_id" translatable="false">synd-innovate-e51cc</string>
+</resources>
