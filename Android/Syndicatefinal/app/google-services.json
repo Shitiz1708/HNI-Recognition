@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1018207747989",
+    "firebase_url": "https://synd-innovate-e51cc.firebaseio.com",
+    "project_id": "synd-innovate-e51cc",
+    "storage_bucket": "synd-innovate-e51cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018207747989:android:354be24703cb45c9",
+        "android_client_info": {
+          "package_name": "me.kumarrohit.syndicatefinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018207747989-tf4os8ve5cd13j7dooj68g9r8l6kh14a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.kumarrohit.syndicatefinal",
+            "certificate_hash": "16d66a385df590064c4bbaac5250bec4c7977a72"
+          }
+        },
+        {
+          "client_id": "1018207747989-k5pf3jsa2sb1u10ftq8rgr5rf1agpi87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7ZvePrjf-MbSV7KoODSKMDh91Ilcei-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018207747989-k5pf3jsa2sb1u10ftq8rgr5rf1agpi87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
