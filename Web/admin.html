@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-database.js"></script>
+    <style>
+        #auth,#notauth{
+            display: none;
+        }
+
+
+        table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child() {
+  background-color: #dddddd;
+}
+    </style>
+</head>
+</head>
+<body>
+    <div id="notauth">
+        <img src="logo.png" alt="logo" class='logo1'>
+        <nav class="navbar1">
+            <ul><br>
+                <h1>Administrator Authentication</h1><br>
+
+            </ul>
+        </nav>
+
+    <div class="imgcontainer1">
+        <img src="sample.jpg" alt="Avatar" class="avatar1">
+    </div>
+
+    <div class="container1">
+        <label for="uname"><b>Username</b></label>
+        <input id="adminusername" type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw1"><b>Password</b></label>
+        <input id="adminpassword" type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" onclick="adminlogin()">Login</button>
+        <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+
+</div>
+
+
+<div id="auth">
+    <img src="logo.png" alt="logo" class='logo'>
+        <nav class="navbar">
+        <ul>
+            <a href="Products.php" target='_blank'><li>Home</li></a>
+            <a href="digital.php" target='_blank'><li>Digital Banking</li></a>
+            <a href="rates.php" target='_blank'><li>Rates And Charges</li></a>
+            <a href="announce.php" target='_blank'><li>Settings</li></a>
+            <a href="#"><li>
+                    <div class="dropdown">
+                        <button onclick="adminlogout()">Log out</button>  
+                    </div>
+            </li></a>
+
+        </ul>
+    </nav>
+
+    <table id="detected_hni">
+        <tr style="background-color: blueviolet">
+            <th>Detected HNI</th>
+        </tr>
+    </table>
+<br><br>
+
+    <table id="online_hni">
+        <tr style="background-color: blueviolet">
+            <th></th>
+            <th>Online HNI</th>
+            <th></th>
+            
+        </tr>
+        <tr style="background-color: blueviolet">
+            <th>Name</th>
+            <th>Account Number</th>
+            <th>Email</th>
+        </tr>
+    </table>
+    <br><br>
+    <table id="requests_hni">
+        <tr style="background-color: blueviolet">
+            <th>Name</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Purpose</th>
+            <th>Message</th>
+        </tr>
+    </table>
+
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="adminapp.js"></script>
+</div>
+
+    
+</body>
+</html>
