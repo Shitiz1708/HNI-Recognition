@@ -1,1 +1,1 @@
-# SyndInnovate
+# HNI Recognition
