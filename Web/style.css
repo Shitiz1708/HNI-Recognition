@@ -21,7 +21,7 @@ body {
 }
 .navbar1 ul{
     background-color: #ff7b00;
-    padding: 0;
+    padding: 5;
     list-style: none;
 }
 .navbar1 li{
@@ -43,7 +43,7 @@ body {
     color: black;
     align-content: center;
     
-    border: 10px;
+    border: 11px;
     border-bottom: 100px;
 }
 
